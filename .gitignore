@@ -1,0 +1,13 @@
+# Секреты
+.env
+
+# База данных (на сервере лежит в /data, в git не попадает)
+*.db
+*.db-journal
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
